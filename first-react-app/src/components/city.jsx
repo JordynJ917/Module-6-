@@ -1,7 +1,8 @@
-function city({name, state = 'NSW', country = 'Australia'}) {
+function City({name, state = 'NSW', country = 'Australia', children}) {
         return (
             <div className="City componentBox">
-                <strong>{name}</strong> is in {state}, {country}
+                <strong>{name}</strong> is in {state}, {country},
+                {children}
             </div>
         )
     }
