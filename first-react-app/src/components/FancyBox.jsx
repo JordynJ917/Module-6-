@@ -6,7 +6,6 @@ function FancyBox(props) {
     );
 }
 function Callout(props) {
-    
         <FancyBox color="blue">
             <h1 className="Callout-title">{props.title}</h1>
             <p className="Callout-message">{props.message}</p>

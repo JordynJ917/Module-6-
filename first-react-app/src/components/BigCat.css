@@ -1,0 +1,19 @@
+.bigCats ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  .bigCats ul li {
+    padding: 1em;
+    width: calc(33% - 4em);
+    border: 1px solid green;
+    margin: 1em;
+  }
+  
+  .bigCats ul li h3 {
+    margin-bottom: 0;
+  }
+  
+  .bigCats ul li img {max-width: 100%;}
+  

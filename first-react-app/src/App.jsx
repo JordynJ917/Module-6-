@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react'
@@ -9,8 +9,18 @@ import React from 'react'
 // import Pet from './components/Pet'
 // import Greeting from './components/Greeting'
 // import FullName from './components/FullName'
-import ComplexComment from './components/ComplexComponent'
-import FancyBox from './components/FancyBox'
+// import ComplexComment from './components/ComplexComponent'
+// import FancyBox from './components/FancyBox'
+import MoviesList from './components/MovieList'
+import BigCats from './components/bigCats';
+import './components/BigCat.css'
+import MoodChanger from './components/MoodChanger';
+import Emoji from './components/Emoji';
+import BirthdayTranslator from './components/BirthdayTranslator';
+// import Weather from './components/Weather';
+import LoginForm from './components/loginform';
+// import ExplodingBomb from './components/ExplodingBomb';
+import Calculator from './components/calculator';
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -124,10 +134,19 @@ function App() {
       {/* <ComplexComment author={comment.author}
       date={comment.date}
       text={comment.date}/> */}
-      <Callout title="Nested React Component"
+      {/* <Callout title="Nested React Component"
       message="Simple message with a fancy box applied via composition">
       <FullName first="Elon" last="Musk" />
-      </Callout>
+      </Callout> */}
+      {/* <MoviesList/> */}
+      {/* <BigCats/> */}
+      {/* <MoodChanger/> */}
+      {/* <Emoji/> */}
+      {/* <BirthdayTranslator/> */}
+      {/* <Weather/> */}
+      {/* <LoginForm/> */}
+      {/* <ExplodingBomb/> */}
+      <Calculator/>
     </div> 
   )
 }
